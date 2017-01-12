@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f025adfd-55d3-4236-b440-64a6ca29b62b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RunTest/RunTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/StepDefs/AmazonHomePage.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_2_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_2_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/StepDefs/AmazonHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utils/DriverClass.class" afterPath="$PROJECT_DIR$/target/classes/Utils/DriverClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/StepDefs/AmazonHomePage.class" afterPath="$PROJECT_DIR$/target/test-classes/StepDefs/AmazonHomePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon.iml" afterPath="$PROJECT_DIR$/Amazon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Feature/AmazonHomePage.feature" afterPath="$PROJECT_DIR$/src/Feature/AmazonHomePage.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/DriverClass.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/DriverClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
     </list>
     <ignored path="Amazon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +31,11 @@
     <favorites_list name="Amazon" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.625">
+            <state vertical-scroll-proportion="-18.166666">
               <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
@@ -52,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/Feature/AmazonHomePage.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -62,10 +56,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils/DriverClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,16 +65,14 @@
       <file leaf-file-name="AmazonHomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4652778">
-              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.8487395">
+              <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#2499#2507#0" expanded="true" />
+                <element signature="e#4184#4185#0" expanded="true" />
+                <element signature="e#4238#4239#0" expanded="true" />
+                <element signature="e#5523#5524#0" expanded="true" />
+                <element signature="e#5575#5576#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,10 +99,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/StepDefs/AmazonHomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utils/DriverClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/RunTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RunTest/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/DriverClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepDefs/AmazonResultPage.java" />
         <option value="$PROJECT_DIR$/src/Feature/AmazonHomePage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java" />
       </list>
@@ -130,11 +121,36 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1845" />
+    <option name="width" value="1855" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Cucumber Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CucumberUndefinedStep</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -161,8 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -250,7 +266,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-server-standalone-3.0.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last.edited.regexp" value="Iphone 6s&#10;" />
   </component>
   <component name="RecentsManager">
@@ -258,8 +274,8 @@
       <recent name="StepDefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: AmazonHomePage">
-    <configuration default="false" name="Feature: AmazonHomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone">
+    <configuration default="false" name="Scenario: Selecting iphone from Result displayed when searched for Iphone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -268,12 +284,12 @@
       </extension>
       <option name="myFilePath" value="$PROJECT_DIR$/src/Feature/AmazonHomePage.feature" />
       <option name="GLUE" value="StepDefs" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: AmazonHomePage" />
+      <option name="myNameFilter" value="^Selecting iphone from Result displayed when searched for Iphone$" />
+      <option name="myGeneratedName" value="Scenario: Selecting iphone from Result displayed when searched for Iphone" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Selecting iphone from Result displayed when searched for Iphone$&quot;" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -283,28 +299,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Amazon" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="RunTest" />
-      <option name="MAIN_CLASS_NAME" value="RunTest.RunTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Scenario: If user searches for Iphone 6s in the search textbox , then all related items should be shown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Scenario: Selecting iphone from Result displayed and adding it to the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -313,12 +308,84 @@
       </extension>
       <option name="myFilePath" value="$PROJECT_DIR$/src/Feature/AmazonHomePage.feature" />
       <option name="GLUE" value="StepDefs" />
-      <option name="myNameFilter" value="^If user searches for Iphone 6s in the search textbox \, then all related items should be shown$" />
-      <option name="myGeneratedName" value="Scenario: If user searches for Iphone 6s in the search textbox , then all related items should be shown" />
+      <option name="myNameFilter" value="^Selecting iphone from Result displayed and adding it to the cart$" />
+      <option name="myGeneratedName" value="Scenario: Selecting iphone from Result displayed and adding it to the cart" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^If user searches for Iphone 6s in the search textbox \, then all related items should be shown$&quot;" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Selecting iphone from Result displayed and adding it to the cart$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Amazon" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Selecting iphone from Result displayed , adding it to the cart and proceeding to checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/Feature/AmazonHomePage.feature" />
+      <option name="GLUE" value="StepDefs" />
+      <option name="myNameFilter" value="^Selecting iphone from Result displayed \, adding it to the cart and proceeding to checkout$" />
+      <option name="myGeneratedName" value="Scenario: Selecting iphone from Result displayed , adding it to the cart and proceeding to checkout" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Selecting iphone from Result displayed \, adding it to the cart and proceeding to checkout$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Amazon" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Sign In for checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/Feature/AmazonHomePage.feature" />
+      <option name="GLUE" value="StepDefs" />
+      <option name="myNameFilter" value="^Sign In for checkout$" />
+      <option name="myGeneratedName" value="Scenario: Sign In for checkout" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Sign In for checkout$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Amazon" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/Feature/AmazonHomePage.feature" />
+      <option name="GLUE" value="StepDefs" />
+      <option name="myNameFilter" value="^Adding Iphone to Cart \, Before proceeding to checkout I increase the quantity of Iphone$" />
+      <option name="myGeneratedName" value="Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Adding Iphone to Cart \, Before proceeding to checkout I increase the quantity of Iphone$&quot;" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -418,14 +485,14 @@
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" value="" />
-      <option name="GLUE" value="StepDefs" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
       <option name="myNameFilter" />
       <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -648,16 +715,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: AmazonHomePage" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RunTest" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: If user searches for Iphone 6s in the search textbox , then all related items should be shown" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Selecting iphone from Result displayed when searched for Iphone" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Selecting iphone from Result displayed and adding it to the cart" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Selecting iphone from Result displayed , adding it to the cart and proceeding to checkout" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Sign In for checkout" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: AmazonHomePage" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: If user searches for Iphone 6s in the search textbox , then all related items should be shown" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RunTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Sign In for checkout" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Selecting iphone from Result displayed , adding it to the cart and proceeding to checkout" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Selecting iphone from Result displayed and adding it to the cart" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Selecting iphone from Result displayed when searched for Iphone" />
       </list>
     </recent_temporary>
   </component>
@@ -667,6 +738,9 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f025adfd-55d3-4236-b440-64a6ca29b62b" name="Default" comment="" />
@@ -677,63 +751,63 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__AmazonHomePage - 2017.01.11 at 18h 23m 05s.xml">
-      <configuration name="Feature: AmazonHomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Adding_Iphone_to_Cart_,_Before_proceeding_to_checkout_I_increase_the_quantity_of_Iphone - 2017.01.12 at 16h 53m 57s.xml">
+      <configuration name="Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__AmazonHomePage - 2017.01.11 at 18h 26m 15s.xml">
-      <configuration name="Feature: AmazonHomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Adding_Iphone_to_Cart_,_Before_proceeding_to_checkout_I_increase_the_quantity_of_Iphone - 2017.01.12 at 16h 56m 06s.xml">
+      <configuration name="Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__AmazonHomePage - 2017.01.11 at 18h 26m 29s.xml">
-      <configuration name="Feature: AmazonHomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Adding_Iphone_to_Cart_,_Before_proceeding_to_checkout_I_increase_the_quantity_of_Iphone - 2017.01.12 at 16h 57m 56s.xml">
+      <configuration name="Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__AmazonHomePage - 2017.01.11 at 18h 27m 06s.xml">
-      <configuration name="Feature: AmazonHomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Adding_Iphone_to_Cart_,_Before_proceeding_to_checkout_I_increase_the_quantity_of_Iphone - 2017.01.12 at 17h 07m 47s.xml">
+      <configuration name="Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__AmazonHomePage - 2017.01.11 at 18h 30m 39s.xml">
-      <configuration name="Feature: AmazonHomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Adding_Iphone_to_Cart_,_Before_proceeding_to_checkout_I_increase_the_quantity_of_Iphone - 2017.01.12 at 17h 12m 17s.xml">
+      <configuration name="Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__AmazonHomePage - 2017.01.11 at 18h 31m 54s.xml">
-      <configuration name="Feature: AmazonHomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Adding_Iphone_to_Cart_,_Before_proceeding_to_checkout_I_increase_the_quantity_of_Iphone - 2017.01.12 at 17h 13m 39s.xml">
+      <configuration name="Scenario: Adding Iphone to Cart , Before proceeding to checkout I increase the quantity of Iphone" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__AmazonHomePage - 2017.01.11 at 18h 32m 57s.xml">
-      <configuration name="Feature: AmazonHomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Selecting_iphone_from_Result_displayed_,_adding_it_to_the_cart_and_proceeding_to_checkout - 2017.01.12 at 15h 40m 03s.xml">
+      <configuration name="Scenario: Selecting iphone from Result displayed , adding it to the cart and proceeding to checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunTest - 2017.01.11 at 18h 21m 58s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
+    <history-entry file="Scenario__Sign_In_for_checkout - 2017.01.12 at 15h 38m 31s.xml">
+      <configuration name="Scenario: Sign In for checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunTest - 2017.01.11 at 18h 22m 28s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
+    <history-entry file="Scenario__Sign_In_for_checkout - 2017.01.12 at 15h 41m 56s.xml">
+      <configuration name="Scenario: Sign In for checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__If_user_searches_for_Iphone_6s_in_the_search_textbox_,_then_all_related_items_should_be_shown - 2017.01.11 at 18h 30m 32s.xml">
-      <configuration name="Scenario: If user searches for Iphone 6s in the search textbox , then all related items should be shown" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Sign_In_for_checkout - 2017.01.12 at 15h 44m 34s.xml">
+      <configuration name="Scenario: Sign In for checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1845" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25069484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.44278607" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.54173577" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.45826423" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -759,6 +833,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -771,28 +853,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Amazon.iml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.46875">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RunTest/RunTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Feature/AmazonHomePage.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.625">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -801,9 +873,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2499#2507#0" expanded="true" />
+            <element signature="e#4184#4185#0" expanded="true" />
+            <element signature="e#4238#4239#0" expanded="true" />
+            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Feature/AmazonHomePage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/DriverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding>
+            <element signature="e#2499#2507#0" expanded="true" />
+            <element signature="e#4184#4185#0" expanded="true" />
+            <element signature="e#4238#4239#0" expanded="true" />
+            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Feature/AmazonHomePage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/DriverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding>
+            <element signature="e#2499#2507#0" expanded="true" />
+            <element signature="e#4184#4185#0" expanded="true" />
+            <element signature="e#4238#4239#0" expanded="true" />
+            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,18 +983,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/DriverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4652778">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#2499#2507#0" expanded="true" />
+            <element signature="e#4184#4185#0" expanded="true" />
+            <element signature="e#4238#4239#0" expanded="true" />
+            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.46875">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/api/java/en/Given.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26501766">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/api/java/en/When.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26501766">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.166666">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RunTest/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/DriverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Feature/AmazonHomePage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefs/AmazonHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8487395">
+          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+          <folding>
+            <element signature="e#2499#2507#0" expanded="true" />
+            <element signature="e#4184#4185#0" expanded="true" />
+            <element signature="e#4238#4239#0" expanded="true" />
+            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>

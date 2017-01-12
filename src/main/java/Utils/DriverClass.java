@@ -10,8 +10,11 @@ public class DriverClass {
 
     public WebDriver driver = new ChromeDriver();
     public String baseUrl = "https://amazon.co.in";
+
     public DriverClass(){
         driver.get(baseUrl);
         driver.manage().window().maximize();
     }
+
+
 }

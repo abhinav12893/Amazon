@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,6 +74,7 @@ public class AmazonStepDefs {
         ArrayList<String> windowHandles = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(windowHandles.get(1));
     }
+
     @Before
     public void initDriver(){
         getHomePage();
@@ -83,6 +85,7 @@ public class AmazonStepDefs {
         driver.close();
     }
 
+    @Test
     @Given("^Iam on the Homepage of Amazon India")
     public void visitHomePage(){
         try {
@@ -95,11 +98,11 @@ public class AmazonStepDefs {
         catch(NoSuchElementException noe){
             System.out.println("Homepage not opened");
         }
-
+        Assert.assertEquals(searchTextBox,searchTextBox);
     }
 
 
-
+    @Test
     @When("^I enter DeviceName in the Search TextBox$")
     public void iEnterPhoneNameInTheSearchTextBox(DataTable deviceName){
 
@@ -107,12 +110,13 @@ public class AmazonStepDefs {
         driver.findElement(searchTextBox).sendKeys(data.get(0).get("DeviceName"));
 
     }
-
+    @Test
     @And("^I click on the Search Button")
     public void clickSearchButton(){
         driver.findElement(searchButton).click();
     }
 
+    @Test
     @And("^All the related items are shown on the next page$")
     public void allTheRelatedItemsAreShownOnTheNextPage(){
 
@@ -130,11 +134,18 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @And("^I click on a device$")
     public void clickDevice(){
-        driver.findElement(deviceName).click();
+        try {
+            driver.findElement(deviceName).click();
+        }
+        catch(NoSuchElementException noe){
+            driver.findElement(By.xpath("//*[@id=\"result_0\"]/div/div[3]/div[1]/a/h2"));
+        }
     }
 
+    @Test
     @Then("^All the related items should be shown on the next page")
     public void searchResult(){
         try{
@@ -154,6 +165,7 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @Then("^Device details should open in a new tab$")
     public void deviceDetails(){
         handleWindow();
@@ -173,6 +185,7 @@ public class AmazonStepDefs {
         }
     }
 
+    @Test
     @And("^I click on Add to Cart Button$")
     public void iClickOnAddToCartButton()  {
         handleWindow();
@@ -180,6 +193,7 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @And("^I click on Cart Button$")
     public void iClickOnCartButton()  {
         WebDriverWait wait = new WebDriverWait(driver,10);
@@ -190,6 +204,7 @@ public class AmazonStepDefs {
 
 
 
+    @Test
     @And("^I click on Proceed to checkout")
     public  void checkout(){
         WebDriverWait wait = new WebDriverWait(driver,10);
@@ -197,6 +212,7 @@ public class AmazonStepDefs {
         driver.findElement(checkout).click();
     }
 
+    @Test
     @And("^I enter username and password$")
     public void iEnterUsernameAndPassword(DataTable userCredentials)  {
 
@@ -206,6 +222,7 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @Then("^Device should get added to the cart$")
     public void deviceShouldGetAddedToTheCart(){
         try{
@@ -221,6 +238,7 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @Then("^Amazon should ask for Sign In")
     public void amazonShouldAskForSignIn(){
         try{
@@ -235,12 +253,14 @@ public class AmazonStepDefs {
         }
     }
 
+    @Test
     @And("^I click on Login$")
     public void iClickOnLogin() {
         driver.findElement(loginButton).click();
 
     }
 
+    @Test
     @Then("^User should be signed in and Address Page should be shown$")
     public void userShouldBeSignedInAndAddressPageShouldBeShown(){
         String userAuth = driver.findElement(user).getText();
@@ -258,6 +278,7 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @And("^I increase the quantity$")
     public void iIncreaseTheQuantityTo(){
 
@@ -266,6 +287,7 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @Then("^More Iphones should get Added$")
     public void moreIphonesShouldGetAdded()  {
 
@@ -275,11 +297,13 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @And("^I select Delivery Address$")
     public void iSelectDeliveryAddress(){
         driver.findElement(deliveryAddress).click();
     }
 
+    @Test
     @Then("^I should see the Delivery options page$")
     public void iShouldSeeTheDeliveyOptionsPage(){
         String deliveryLabel = driver.findElement(deliveryOptionsLabel).getText();
@@ -290,11 +314,13 @@ public class AmazonStepDefs {
     }
 
 
+    @Test
     @And("^I click on Continue$")
     public void iClickOnContinue(){
         driver.findElement(continueToPaymentButton).click();
     }
 
+    @Test
     @Then("^I should land on payment method page$")
     public void iShouldLandOnPaymentMethodPage(){
         String paymentLabel = driver.findElement(paymentMethodLabel).getText();
@@ -302,6 +328,7 @@ public class AmazonStepDefs {
         System.out.println("Iam on page : "+paymentLabel);
     }
 
+    @Test
     @And("^I click on Debit Card Payment$")
     public void iClickOnDebitCardPayment(){
         WebDriverWait wait = new WebDriverWait(driver,10);
@@ -316,6 +343,7 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @Then("^Debit Card Should be selected$")
     public void debitCardShouldBeSelected(){
 
@@ -327,18 +355,21 @@ public class AmazonStepDefs {
         }
     }
 
+    @Test
     @And("^I select Bank from the dropdown$")
     public void iSelectBankFromTheDropdown(){
         driver.findElement(chooseABankButton).click();
         driver.findElement(bankSelect).click();
     }
 
+    @Test
     @And("^I click on Continue To Place Order$")
     public void iClickOnContinueToPlaceOrder(){
         driver.findElement(continueToPlaceOrderButton).click();
 
     }
 
+    @Test
     @Then("^I should land on Place Order Page$")
     public void iShouldLandOnPlaceOrderPage()  {
         WebDriverWait wait = new WebDriverWait(driver,10);
@@ -349,6 +380,7 @@ public class AmazonStepDefs {
 
     }
 
+    @Test
     @And("^I click on Place your order button$")
     public void iClickOnPlaceYourOrderButton(){
         WebDriverWait wait = new WebDriverWait(driver,10);
@@ -356,6 +388,7 @@ public class AmazonStepDefs {
         driver.findElement(palceYourOrderButton).click();
     }
 
+    @Test
     @Then("^I should be redirected to payment gateway$")
     public void iShouldBeRedirectedToPaymentGateway() {
         WebDriverWait wait = new WebDriverWait(driver,15);
